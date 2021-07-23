@@ -25,6 +25,8 @@ header .container{
 }
 
 #flags{
+    display:flex;
+    justify-content:center;
     font-size: 35px;
     text-decoration: none;
     color: white;
