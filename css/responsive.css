@@ -1,0 +1,60 @@
+@media screen and (max-width:700px){
+header .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    margin-top: 9px;
+    width: 150px;
+    height: 150px;
+}
+}
+
+@media screen and (min-width:1000px){
+    .description{
+        width: 150%;
+    }
+    .button{
+        
+       
+        width: 40%;
+        height: 30%;
+        padding: 0.6rem
+    }
+}
+
+#flags{
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+    color: var(--vermelho);
+    margin-left: 10px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    
+}
+
+
+
+.p {
+    color: var(--vermelho);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    cursor: pointer;
+    border: 1px transparent white;
+   
+    
+    height: 30px;
+   
+   
+}
+
+.p:hover {
+    color: black;
+    background: var(--vermelho)
+}
